@@ -1,0 +1,45 @@
+#padder
+{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bannerWrapper
+{
+
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#bannerContainer
+{
+    max-height: 70%;
+    height: 100%;
+    background-color: black;
+}
+#bannerText
+{
+    height: 100%;
+}
+#bannerImg
+{
+    height: 100%;
+    background-color: black;
+}
+h1{
+    font-size: large;
+    font-weight: bold;
+}
+h2
+{
+    font-size: medium;
+    font-weight: lighter;
+}
+p{
+    font-size: small;
+    font-weight: lighter;
+}
