@@ -1,14 +1,50 @@
-#padder
+html
 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #0D1723;
+
+}
+#headerBar
+{
+    height: 20em;
+    background-color: #0D1723;
+    border-bottom: 2px solid pink;
+
+}
+#headerInner
+{
+    height: 50%;
     max-width: 70%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    transform: translate(0%,50%);
+    color: #fff;
+}
+#bannerBG
+{
+    background-image: url("images/img.jpeg");
+    -webkit-filter: blur(5px);
+    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100vw;
+    height: 500px;
+    overflow: hidden;
 }
 #bannerWrapper
 {
-
-    width: 100vw;
-    height: 100vh;
+    height: 500px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     display: flex;
     align-items: center;
@@ -17,29 +53,44 @@
 }
 #bannerContainer
 {
-    max-height: 70%;
-    height: 100%;
-    background-color: black;
+
 }
 #bannerText
 {
     height: 100%;
+    margin-right: 5%;
+    color: #fff;
 }
 #bannerImg
-{
-    height: 100%;
-    background-color: black;
+{   
+    margin-left: 5%;
+    border-radius: 30px;
+    transition: ease 0.3s;
+    overflow: hidden;
+    height: 90%;
+    width: 90%;
 }
-h1{
-    font-size: large;
+#bannerImg:hover
+{
+    -webkit-filter: grayscale(1);
+
+}
+img
+{
+
+}
+h1
+{
+    font-size: 36px;
     font-weight: bold;
 }
 h2
 {
-    font-size: medium;
+    font-size: 24px;
     font-weight: lighter;
 }
-p{
-    font-size: small;
+p
+{
+    font-size: 16px;
     font-weight: lighter;
 }
