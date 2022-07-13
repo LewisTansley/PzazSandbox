@@ -1,0 +1,393 @@
+html
+{
+    font-family: monospace;
+    font-size: 1.5em;
+    overflow: scroll;
+    margin: 0;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+#headerBar
+{
+    background-color: #0D1723;
+    position: fixed;
+    max-width: 100%;
+    width: 100%;
+}
+#headerInner
+{
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+    display: block;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#headerInner img
+{
+    max-height: 100%;
+}
+#bodyContainer
+{
+    padding-top: 10vh;
+}
+#exampleContainer
+{
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+#exampleContainer h
+{
+    font-weight: bold;
+    padding-left: 5%;
+  
+}
+#exampleContainer p
+{
+    padding-left: 5%;
+
+}
+.dot
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+#dot1
+{
+    background-color: hotpink;
+}
+#dot2
+{
+    background-color: blue;
+}
+#dot3
+{
+    background-color: blueviolet;
+}
+#VSection
+{
+    padding: 2%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+    width: 100%;
+    max-height: 50vh;
+    height: 100%;
+}
+#HSection
+{
+    padding: 2%;
+    max-width: 50%;
+    width: 50%;
+
+}
+#padderL
+{
+    max-height: 100%;
+    height: 100%;
+    padding: 1em;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.header
+{
+    width: 100%;
+    color: gray;
+    font-size: 20pt;
+    font-weight: lighter;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    display: flex;
+}
+.descriptor
+{
+    color: grey;
+    font-size: 0.75em;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border-bottom: 1px solid hotpink;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+
+  }
+  .button
+  {
+    font-size: 1em;
+    border-radius: 0.2em;
+    margin-right: 1em;
+    text-transform: uppercase;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 0.6em;
+    height: 2em;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    transition: ease 0.1s;
+    background-color: #2F4454;
+    color: #fff;
+    outline: none;
+    border: none;
+  }
+  .button:hover
+  {
+    background-color: #F06E9C;
+  }
+  .circleButton
+  {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 1em;
+    text-transform: uppercase;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    transition: ease 0.1s;
+    background-color: #2F4454;
+    color: #fff;
+    outline: none;
+    border: none;
+  }
+  .circleButton:hover{
+    background-color: #F06E9C;
+  }
+  .card
+  {
+    max-width: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 300px 200px;
+    grid-template-areas:
+        "image"
+        "text";
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #707070;
+    z-index: 0;
+    background-color: #40404050;
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 2.2px rgb(0 0 0 / 7%),
+  }
+  .card-image 
+  {
+    grid-area: image;
+    background: url(images/img.jpeg);
+    background-size: cover;
+}
+.card-text 
+{
+    grid-area: text;
+    overflow: hidden;
+    transition: 0.3s ease;
+    padding: 10px;
+    max-height: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow-y: auto;
+}
+  /*
+  --color-background: #091018;
+    --color-header-background: #04070B;
+    --color-contentitem-text: #808080;
+    --color-main-source-background: #E52136;
+    --color-tab-active: #FFFDFD;
+    --color-tab-focus: #091018;
+    --color-tab-default: #091018;
+    --color-active: #F06E9C;
+    --color-success: #F06E9C;
+    --color-error: #3B1D8F;
+    --color-warn: #3B1D8F;
+    --color-item: #0E1926;
+    --color-preloader1: #3B1D8F;
+    --color-preloader2: #AE120B;
+    --color-preloader3: #F06E92;
+    --color-preloader4: #015E70;
+    --color-banner-background: #010102;
+    --color-popup-background: #FFFDFD;
+    --color-signin-btn: #381B87;
+    --color-dark-item: #142436;
+    --color-popup-bottom: #1E3550;
+    --color-popup-icon-text: #17293D;
+    --color-item-light: #122031;
+    --color-item-light10: #1C324B;
+    --color-item-dark: #05090D;
+    --color-background-dark: #05090D;
+    --color-background-light: #0D1723;
+    --color-header-background-dark: #000000;
+    --color-popup-background-dark: #FF6464;
+    --color-day-card-border: #1E3550;
+    --color-card-body: #7D7D7D;
+    --color-search-history: #CCCCCC;
+    --color-indicators: #545454;
+    --color-voice: #4F4F4F;
+    --color-grey: #242424;
+    --color-addon: #341A7E;
+    --color-upgrade: #0F1B27;
+    --color-input-placeholder: #999999;
+    --color-shadow: rgba(4, 7, 11, 0.75);
+    --color-light-shadow: rgba(4, 7, 11, 0.3);
+    --color-white: #FFFFFF;
+    --color-light-gray: #E6E6E6;
+    --color-gray: #CCCCCC;
+    --color-green: #28A745;
+    --color-credit-card-cover: #060B11; 
+    --color-credit-card-background: rgba(9, 16, 24, 0.45);
+    --color-credit-card-selection-border: rgba(255, 255, 255, 0.65);
+    --color-credit-card-selection-background: #060B11;
+    --color-credit-card-cvv: #0F1A27;
+    --color-credit-card-cvv-shadow: rgba(17, 31, 46, 0.35);
+    --color-credit-card-cvv-band: rgba(0, 0, 0, 0.8);
+    --color-my-account-color: rgba(47, 68, 84, 0.1);
+    --color-pzaz-purple: #3B1D8F;
+    --color-settings-card: #2F4454;
+    --color-black: #000000;
+    --color-active-inverse: #0D0D0D;
+    --color-warn-inverse: #FFFFFF;
+    --color-error-inverse: #FFFFFF;
+    --color-success-inverse: #0D0D0D;
+    --color-sky-inverse: #FFFFFF;
+    --color-facebook-inverse: #FFFFFF;
+    --color-google-inverse: #0D0D0D;
+    --color-background-inverse: #FFFFFF;
+    --color-background-inverse-light: #FFFFFF;
+    --color-background-inverse-lighter: #FFFFFF;
+    --color-background-inverse-lightest: #CCCCCC;
+    --color-item-inverse: #FFFFFF;
+    --color-item-inverse-light: #FFFFFF;
+    --color-header-inverse: #FFFFFF;
+    --color-banner-inverse: #FFFFFF;
+    --color-banner-inverse-light: #FFFFFF;
+    --color-tab-default-inverse: #FFFFFF;
+    --color-tab-active-inverse: #0D0D0D;
+    --color-tab-focus-inverse: #FFFFFF;
+    --color-popup-background-inverse: #0D0D0D;
+    --color-settings-card-inverse: #FFFFFF;
+    --color-background-rgb: 9, 16, 24;
+    --color-header-background-rgb: 4, 7, 11;
+    --color-contentitem-text-rgb: 128, 128, 128;
+    --color-main-source-background-rgb: 229, 33, 54;
+    --color-tab-active-rgb: 255, 253, 253;
+    --color-tab-focus-rgb: 9, 16, 24;
+    --color-tab-default-rgb: 9, 16, 24;
+    --color-active-rgb: 240, 110, 156;
+    --color-success-rgb: 240, 110, 156;
+    --color-error-rgb: 59, 29, 143;
+    --color-warn-rgb: 59, 29, 143;
+    --color-item-rgb: 14, 25, 38;
+    --color-preloader1-rgb: 59, 29, 143;
+    --color-preloader2-rgb: 174, 18, 11;
+    --color-preloader3-rgb: 240, 110, 146;
+    --color-preloader4-rgb: 1, 94, 112;
+    --color-banner-background-rgb: 1, 1, 2;
+    --color-popup-background-rgb: 255, 253, 253;
+    --color-signin-btn-rgb: 56, 27, 135;
+    --color-dark-item-rgb: 20, 36, 54;
+    --color-popup-bottom-rgb: 30, 53, 80;
+    --color-popup-icon-text-rgb: 23, 41, 61;
+    --color-item-light-rgb: 18, 32, 49;
+    --color-item-light10-rgb: 28, 50, 75;
+    --color-item-dark-rgb: 5, 9, 13;
+    --color-background-dark-rgb: 5, 9, 13;
+    --color-background-light-rgb: 13, 23, 35;
+    --color-header-background-dark-rgb: 0, 0, 0;
+    --color-popup-background-dark-rgb: 255, 100, 100;
+    --color-day-card-border-rgb: 30, 53, 80;
+    --color-card-body-rgb: 125, 125, 125;
+    --color-search-history-rgb: 204, 204, 204;
+    --color-indicators-rgb: 84, 84, 84;
+    --color-voice-rgb: 79, 79, 79;
+    --color-grey-rgb: 36, 36, 36;
+    --color-addon-rgb: 52, 26, 126;
+    --color-upgrade-rgb: 15, 27, 39;
+    --color-input-placeholder-rgb: 153, 153, 153;
+    --color-shadow-rgb: 4, 7, 11;
+    --color-light-shadow-rgb: 4, 7, 11;
+    --color-white-rgb: 255, 255, 255;
+    --color-light-gray-rgb: 230, 230, 230;
+    --color-gray-rgb: 204, 204, 204;
+    --color-green-rgb: 40, 167, 69;
+    --color-credit-card-cover-rgb: 6, 11, 17;
+    --color-credit-card-background-rgb: 9, 16, 24;
+    --color-credit-card-selection-border-rgb: 255, 255, 255;
+    --color-credit-card-selection-background-rgb: 6, 11, 17;
+    --color-credit-card-cvv-rgb: 15, 26, 39;
+    --color-credit-card-cvv-shadow-rgb: 17, 31, 46;
+    --color-credit-card-cvv-band-rgb: 0, 0, 0;
+    --color-my-account-color-rgb: 47, 68, 84;
+    --color-pzaz-purple-rgb: 59, 29, 143;
+    --color-settings-card-rgb: 47, 68, 84;
+    --color-black-rgb: 0, 0, 0;
+    --color-active-inverse-rgb: 13, 13, 13;
+    --color-warn-inverse-rgb: 255, 255, 255;
+    --color-error-inverse-rgb: 255, 255, 255;
+    --color-success-inverse-rgb: 13, 13, 13;
+    --color-sky-inverse-rgb: 255, 255, 255;
+    --color-facebook-inverse-rgb: 255, 255, 255;
+    --color-google-inverse-rgb: 13, 13, 13;
+    --color-background-inverse-rgb: 255, 255, 255;
+    --color-background-inverse-light-rgb: 255, 255, 255;
+    --color-background-inverse-lighter-rgb: 255, 255, 255;
+    --color-background-inverse-lightest-rgb: 204, 204, 204;
+    --color-item-inverse-rgb: 255, 255, 255;
+    --color-item-inverse-light-rgb: 255, 255, 255;
+    --color-header-inverse-rgb: 255, 255, 255;
+    --color-banner-inverse-rgb: 255, 255, 255;
+    --color-banner-inverse-light-rgb: 255, 255, 255;
+    --color-tab-default-inverse-rgb: 255, 255, 255;
+    --color-tab-active-inverse-rgb: 13, 13, 13;
+    --color-tab-focus-inverse-rgb: 255, 255, 255;
+    --color-popup-background-inverse-rgb: 13, 13, 13;
+    --color-settings-card-inverse-rgb: 255, 255, 255;
+  */
