@@ -46,16 +46,27 @@
                     <div id="HSection">
                         <h class="header">Typography</h>
                         <div id="padderL">
-                            <h1>Header 1</h1>
-                            <p class="descriptor">Family: / Weight: / Color: / Size:</p>
-                            <h2>Header 2</h2>
-                            <p class="descriptor">Family: / Weight: / Color: / Size:</p>
-                            <h3>Header 3</h3>
-                            <p class="descriptor">Family: / Weight: / Color: / Size:</p>
-                            <h4>Header 4</h4>
-                            <p class="descriptor">Family: / Weight: / Color: / Size:</p>
-                            <h5>Header 5</h5>
-                            <p class="descriptor">Family: / Weight: / Color: / Size:</p>
+                            <div id="padderS">
+                                <h1>Header 1</h1>
+                                <p class="descriptor">Family: / Weight: / Color: / Size:</p>    
+                            </div>
+                            <div id="padderS">
+                                <h2>Header 2</h2>
+                                <p class="descriptor">Family: / Weight: / Color: / Size:</p>    
+                            </div>
+                            <div id="padderS">
+                                <h3>Header 3</h3>
+                                <p class="descriptor">Family: / Weight: / Color: / Size:</p>    
+                            </div>
+                            <div id="padderS">
+                                <h4>Header 4</h4>
+                                <p class="descriptor">Family: / Weight: / Color: / Size:</p>    
+                            </div>
+                            <div id="padderS">
+                                <h5>Header 5</h5>
+                                <p class="descriptor">Family: / Weight: / Color: / Size:</p>    
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -79,9 +90,39 @@
                         <h class="header">Other</h>
                         <div id="padderL">
                             <div id="exampleContainer">
-                                <div class="card">
-                                    <div class="card-image"></div>
-                                    <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                                <div class="card-wrapper">
+                                    <div class="card">
+                                        <div class="card-top">
+                                            <img alt src="assets/css/images/Pzaz_logo-20.png"/>
+                                        </div>
+                                        <div class="card-middle">
+                                            <img src="assets/css/images/alien2.jpg"></img>
+                                            <button class="circleButton" style="transform: translate(0%,-200%);"><i class="fas fa-play"></i></button>
+
+                                        </div>
+                                        <div class="card-bottom">
+                                            <h>Color</h>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="padderS">
+                                    <div id="padderS">
+                                        <h>Card</h>
+                                    </div>
+                                    <div id="padderS">
+                                        <h>Ticker</h>
+                                        <p class="descriptor">Family: / Weight: / Color: / Size:</p>    
+                                    </div>
+                                    <div id="padderS">
+                                        <h>Header</h>
+                                        <p class="descriptor">Family: / Weight: / Color: / Size:</p>    
+                                    </div>
+                                    <div id="padderS">
+                                        <h>Paragraph</h>
+                                        <p class="descriptor">Family: / Weight: / Color: / Size:</p>    
+                                    </div>
+
                                 </div>
                             </div>
 
@@ -94,10 +135,7 @@
             
         </div>
 
-        <script>
-            // Get the element with id="defaultOpen" and click on it
-            document.getElementById("defaultOpen").click();
-        </script>
+        <script>document.getElementById("defaultOpen").click();</script>
 
     </body>
 </html>
