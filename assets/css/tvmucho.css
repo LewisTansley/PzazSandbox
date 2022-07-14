@@ -1,0 +1,47 @@
+#dot1
+{
+  background-color: green;
+}
+#dot2
+{
+  background-color: greenyellow;
+}
+#dot3
+{
+  background-color: darkgreen;
+}
+.button
+{
+  background-color: lightseagreen;
+  color: #fff;
+}
+.button:hover
+{
+  background-color: #F06E9C;
+}
+.circleButton
+{
+  background-color: lightseagreen;
+  color: #fff;
+}
+.circleButton:hover{
+  background-color: green;
+}
+.card-wrapper
+{
+  border: 2px solid lightseagreen;
+}
+.card
+{
+  background-color: lightseagreen;
+  color: #fff;
+}
+.card-middle 
+{
+  background-color: green;
+}
+
+.card-bottom
+{
+  background-color: green;
+}

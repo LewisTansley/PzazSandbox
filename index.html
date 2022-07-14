@@ -3,7 +3,11 @@
     <head>
         <title>Pzaz Sandbox</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="assets/css/index.css">
+        <link rel="stylesheet" href="assets/css/index.css"/>
+        <link rel="stylesheet" href="assets/css/tabFunc.css"/>
+        <link rel="stylesheet" href="assets/css/layout.css"/>
+        <link rel="stylesheet" href="assets/css/pzaz.css" id="theme"/>
+
         <script type="text/javascript" src="TabFunc.js"></script>
     </head>
     <body>
@@ -14,62 +18,61 @@
             </div>
             <div class="padderS">
                 <div class="tab">
-                    <button class="tablinks" onclick="openTab(event, 'Palette1')" id="defaultOpen">Pzaz</button>
-                    <button class="tablinks" onclick="openTab(event, 'Palette2')">TVMucho</button>
+                    <button class="tablinks" onclick="openTab(event, 'pzaz.css')" id="defaultOpen">Pzaz</button>
+                    <button class="tablinks" onclick="openTab(event, 'tvmucho.css')">TVMucho</button>
                     <button class="tablinks" onclick="openTab(event, 'Palette3')">Palette3</button>
                 </div>
             </div>
         </header>
         <div id="bodyContainer">
-            <div id="Palette1" class="tabcontent">
-                <div id="VSection">
-                    <div id="HSection">
-                        <h class="header">Color Palette</h>
-                        <div id="padderL">
-                            <div id="exampleContainer">
-                                <div class="dot" id="dot1"></div>
-                                <h>Color</h>
-                                <p class="descriptor">#123123</p>
-                            </div>
-                            <div id="exampleContainer">
-                                <div class="dot" id="dot1"></div>
-                                <h>Color</h>
-                                <p class="descriptor">#123123</p>
-                            </div>
-                            <div id="exampleContainer">
-                                <div class="dot" id="dot1"></div>
-                                <h>Color</h>
-                                <p class="descriptor">#123123</p>
-                            </div>
+            <div id="VSection">
+                <div id="HSection">
+                    <h class="header">Color Palette</h>
+                    <div id="padderL">
+                        <div id="exampleContainer">
+                            <div class="dot" id="dot1"></div>
+                            <h>Color</h>
+                            <p class="descriptor">#123123</p>
                         </div>
-                    </div>
-                    <div id="HSection">
-                        <h class="header">Typography</h>
-                        <div id="padderL">
-                            <div id="padderS">
-                                <h1>Header 1</h1>
-                                <p class="descriptor">Family: / Weight: / Color: / Size:</p>    
-                            </div>
-                            <div id="padderS">
-                                <h2>Header 2</h2>
-                                <p class="descriptor">Family: / Weight: / Color: / Size:</p>    
-                            </div>
-                            <div id="padderS">
-                                <h3>Header 3</h3>
-                                <p class="descriptor">Family: / Weight: / Color: / Size:</p>    
-                            </div>
-                            <div id="padderS">
-                                <h4>Header 4</h4>
-                                <p class="descriptor">Family: / Weight: / Color: / Size:</p>    
-                            </div>
-                            <div id="padderS">
-                                <h5>Header 5</h5>
-                                <p class="descriptor">Family: / Weight: / Color: / Size:</p>    
-                            </div>
-
+                        <div id="exampleContainer">
+                            <div class="dot" id="dot2"></div>
+                            <h>Color</h>
+                            <p class="descriptor">#123123</p>
+                        </div>
+                        <div id="exampleContainer">
+                            <div class="dot" id="dot3"></div>
+                            <h>Color</h>
+                            <p class="descriptor">#123123</p>
                         </div>
                     </div>
                 </div>
+                <div id="HSection">
+                    <h class="header">Typography</h>
+                    <div id="padderL">
+                        <div id="padderS">
+                            <h1>Header 1</h1>
+                            <p class="descriptor">Family: / Weight: / Color: / Size:</p>    
+                        </div>
+                        <div id="padderS">
+                            <h2>Header 2</h2>
+                            <p class="descriptor">Family: / Weight: / Color: / Size:</p>    
+                        </div>
+                        <div id="padderS">
+                            <h3>Header 3</h3>
+                            <p class="descriptor">Family: / Weight: / Color: / Size:</p>    
+                        </div>
+                        <div id="padderS">
+                            <h4>Header 4</h4>
+                            <p class="descriptor">Family: / Weight: / Color: / Size:</p>    
+                        </div>
+                        <div id="padderS">
+                            <h5>Header 5</h5>
+                            <p class="descriptor">Family: / Weight: / Color: / Size:</p>    
+                        </div>
+
+                    </div>
+                </div>
+            </div>
                 <div id="VSection">
                     <div id="HSection">
                         <h class="header">Buttons</h>
@@ -130,7 +133,6 @@
                     </div>
                 </div>
     
-            </div> 
             
             
         </div>

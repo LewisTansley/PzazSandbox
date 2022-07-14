@@ -1,0 +1,47 @@
+#dot1
+{
+  background-color: hotpink;
+}
+#dot2
+{
+  background-color: blue;
+}
+#dot3
+{
+  background-color: blueviolet;
+}
+.button
+{
+  background-color: #2F4454;
+  color: #fff;
+}
+.button:hover
+{
+  background-color: #F06E9C;
+}
+.circleButton
+{
+  background-color: #2F4454;
+  color: #fff;
+}
+.circleButton:hover{
+  background-color: #F06E9C;
+}
+.card-wrapper
+{
+  border: 2px solid #2F4454;
+}
+.card
+{
+  background-color: #0D1723;
+  color: #fff;
+}
+.card-middle 
+{
+  background-color: #F06E9C;
+}
+
+.card-bottom
+{
+  background-color: #F06E9C;
+}
