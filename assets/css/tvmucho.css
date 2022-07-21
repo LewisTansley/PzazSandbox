@@ -1,47 +1,70 @@
+body
+{
+  background-color: #011b22;
+}
+#headerBar
+{
+  background-color: #00232c;
+}
 #dot1
 {
-  background-color: green;
+  background-color: #011b22;
 }
 #dot2
 {
-  background-color: greenyellow;
+  background-color: #00232c;
 }
 #dot3
 {
-  background-color: darkgreen;
+  background-color: #24b2c7;
 }
 .button
 {
-  background-color: lightseagreen;
+  border: 1px solid #2F4454;
+  background-color: #2F4454;
   color: #fff;
 }
 .button:hover
+{
+  background-color: #04070b;
+  border: 1px solid #F06E9C;
+
+}
+.button:active
 {
   background-color: #F06E9C;
 }
 .circleButton
 {
-  background-color: lightseagreen;
+  border: 1px solid #2F4454;
+  background-color: #2F4454;
   color: #fff;
 }
-.circleButton:hover{
-  background-color: green;
+.circleButton:hover
+{
+  background-color: #17273b;
+  border: 1px solid #F06E9C;
+
+}
+.circleButton:active
+{
+  background-color: #F06E9C;
 }
 .card-wrapper
 {
-  border: 2px solid lightseagreen;
+  border: 2px solid #2F4454;
 }
 .card
 {
-  background-color: lightseagreen;
+  background-color: #0D1723;
   color: #fff;
 }
 .card-middle 
 {
-  background-color: green;
+  background-color: #F06E9C;
 }
 
 .card-bottom
 {
-  background-color: green;
+  background-color: #F06E9C;
 }
