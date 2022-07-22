@@ -1,11 +1,38 @@
 body
 {
-  background-color: #011b22;
+  background-color: #00232c;
 }
 #headerBar
 {
+  background-color: #011b22;
+}
+
+.tab {
+  border-bottom: 1px solid #24b2c7;
+  color: #fff;
+}
+.tab button {
+  color: #fff;
+
+  border: solid 1px #011b22;
+  border-bottom: none;
+  background-color: inherit;
+
+}
+.tab button:hover {
+  border: solid 1px #24b2c7;
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
   background-color: #00232c;
 }
+.tab button.active {
+  border: solid 1px #24b2c7;
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  background: #24b2c7;
+}
+
 #dot1
 {
   background-color: #011b22;

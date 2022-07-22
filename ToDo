@@ -1,0 +1,7 @@
+move all hardcoded colors to vars
+set color vars within layout.css
+declare color palette as css vars on :root{} for global access
+adjust color vars dependent on loaded css palette
+correct card style
+correct button styles
+generate color palette section dependent on css palette
