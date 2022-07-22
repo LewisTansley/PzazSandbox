@@ -1,24 +1,51 @@
 body
 {
-  background-color: #091018;
+  background-color: #15182C;
 }
 #headerBar
 {
-  background-color: #04070b;
+  background-color: #5B58C7;
 }
+
+.tab {
+  border-bottom: 1px solid #F06E9C;
+  color: #fff;
+}
+.tab button {
+  color: #fff;
+
+  border: solid 1px #011b22;
+  border-bottom: none;
+  background-color: inherit;
+
+}
+.tab button:hover {
+  border: solid 1px #F06E9C;
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+  background-color: #00232c;
+}
+.tab button.active {
+  border: solid 1px #F06E9C;
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  background: #F06E9C;
+}
+
 #dot1
 {
-
-  background-color: #04070b;
+  background-color: #15182C;
 }
 #dot2
 {
-  background-color: #091018;
+  background-color: #5B58C7;
 }
 #dot3
 {
-  background-color: #F06E9C;
+  background-color: #14C5C3;
 }
+
 .button
 {
   border: 1px solid #2F4454;
@@ -29,6 +56,7 @@ body
 {
   background-color: #04070b;
   border: 1px solid #F06E9C;
+
 }
 .button:active
 {
